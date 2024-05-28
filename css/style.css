@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        .bg-imagem{
+                background-image: url("../imagens/altafidelidade.svg");
+                background-size: cover;
+                background-image: center center;
+                height: 100px;
+        }
+        #logo{
+            height: 130px;
+            width: 130px;
+            margin-top: 20px;
+            margin-left: 50px;
+        }
+        #cor{
+            font-family:"Montserrat",sans-serif;
+            font-size:45px;
+            font-weight:500;
+            border-radius: 40px;
+            transition: box-shadow 0.3s ease;
+        }
+        #cor:hover{
+            background-color: #CCEEBC;
+            border-radius: 40px;
+            box-shadow: 0px 14px 10px #FFD9C0
+        }
+        .nav-item{
+            padding: 30px 60px;
+        }
+        #folha{
+            height: 350px;
+            width: 200px;
+        }
+        #quadrado{
+            text-align: center;
+            background-color: #CCEEBC;
+            border-radius: 80px;
+            box-shadow: 0px 14px 10px #FFD9C0;
+            padding: 20px;
+            height: 350px;
+            width: 400px;
+            display: inline-block;
+        }
+        #apresentar{
+            padding: 75px 0px 0px 0px;
+            display: flex;
+            justify-content:space-around;
+            
+        }
+        #apresentar .col-md-auto {
+            margin-top: 10px;
+            margin-right: 300px;
+        }   
+        #apresentar h1{
+            font-family:'Montserrat',sans-serif;
+            font-weight: bold;
+            color: #113F01;
+            margin-top: 10px;
+            margin-bottom: 35px;
+        }
+        #apresentar h2{
+            font-family:'Montserrat',sans-serif;
+        }
+        #faixa{
+            margin-top: 120px;
+            background-color: #ffffff;
+            height: 50px;
+        }
+        #faixa1{
+            margin-top: 140px;
+            background-color: #ffffff;
+            height: 50px;
+        }
+        #quadrado1{
+            text-align: center;
+            background-color: #CCEEBC;
+            border-radius: 80px;
+            box-shadow: 0px 14px 10px #FFD9C0;
+            padding: 20px;
+            height: 450px;
+            width: 650px;
+            display: inline-block;
+        }
+        .round-img{
+            margin-top: 80px;
+            margin-bottom: 10px;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            box-shadow: 0px 14px 10px #FFD9C0;
+        }
+        .card-title{
+            font-family:'Montserrat',sans-serif;
+        }
+        #mexericas{
+            border-radius: 35px;
+            box-shadow: 0px 14px 10px #FFD9C0;
+        }
+        #texto{
+            margin-top: 30px;
+            text-align: center;
+            font-family:'Montserrat',sans-serif;
+        }
+        #texto h1{
+            font-family:'Montserrat',sans-serif;
+            font-weight: bold;
+            color: #113F01;
+        }
+        #vetores{
+            margin-top: 50px;
+            margin-bottom: 10px;
+            width: 150px;
+            height: 150px;
+            object-fit:fill;
+        }
+        #cartas{
+            background-color: #ffffff;
+            display:block;
+            height: 500px;
+            width: 300px;
+            border-radius: 40px;
+            box-shadow: 0px 14px 10px #FFD9C0;
+        }
+        .footer{
+            background-color: #8CC0DE;
+            color: #ffffff;
+            height: 300px;
+        }
+        #textocarta{
+            margin-left: 20px;
+            margin-right: 20px;
+        }

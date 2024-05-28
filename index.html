@@ -6,67 +6,7 @@
     <title>Vitalliz</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-        .bg-imagem{
-                background-image: url("imagens/altafidelidade.svg");
-                background-size: cover;
-                background-image: center center;
-                height: 100px;
-        }
-        #logo{
-            height: 130px;
-            width: 130px;
-            margin-top: 20px;
-            margin-left: 50px;
-        }
-        #cor{
-            font-family:"Montserrat",sans-serif;
-            font-size:45px;
-            font-weight:500;
-            border-radius: 40px;
-            transition: box-shadow 0.3s ease;
-        }
-        #cor:hover{
-            background-color: #CCEEBC;
-            border-radius: 40px;
-            box-shadow: 0px 14px 10px #FFD9C0
-        }
-        .nav-item{
-            padding: 30px 60px;
-        }
-
-        #quadrado{
-            text-align: center;
-            background-color: #CCEEBC;
-            border-radius: 80px;
-            box-shadow: 0px 14px 10px #FFD9C0;
-            padding: 20px;
-            height: 350px;
-            width: 400px;
-            display: inline-block;
-        }
-        #apresentar{
-            padding: 75px 0px 0px 0px;
-            display: flex;
-            justify-content: space-around;
-            
-        }
-        #apresentar .col-md-auto {
-            margin-top: 30px;
-            margin-right: 400px;
-        }   
-        #apresentar h1{
-            font-family:'Montserrat',sans-serif;
-            font-weight: bold;
-            color: #113F01;
-            margin-top: 10px;
-            margin-bottom: 35px;
-        }
-        #apresentar h2{
-            font-family:'Montserrat',sans-serif;
-        }
-    </style>
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body class="bg-imagem">
     <div class="container-fluid">
@@ -79,7 +19,7 @@
                     <div class="collapse navbar-collapse justify-content-md-center">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a class="nav-link" id="cor" href="#home">Home</a>
+                                <a class="nav-link" id="cor" href="#home">Apresentação</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" id="cor" href="#projeto">Projeto</a>
@@ -96,7 +36,7 @@
     <div class="container" id="apresentar">
         <div class="row">
             <div class="col-md-auto">
-                <img src="imagens/Folha Logo Vetor.svg">
+                <img src="imagens/Folha Logo Vetor.svg" id="folha">
             </div>
             <div class="col-md">
                 <div id="quadrado">
@@ -106,8 +46,112 @@
             </div>
         </div>
     </div>
+    <div id="faixa"></div>
+    <div class="container" id="apresentar">
+        <div id="quadrado1">
+            <h1>Apresentação</h1>
+            <h2> A equipe Vitalliz faz referência ao ciclo da vida, buscando alinhas o compromisso e cuidado que temos com a natureza e refletir esses príncipios em nossas tecnologias, visando melhorar o cotidiano das fazendas e dos produtores rurais.</h3>
+        </div>
+    </div>
+    <div id="faixa1"></div>
+    <div class="container">
+        <div class="row">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center" id="texto">
+                    <h1>Integrantes</h1>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="text-center">
+                    <img src="https://via.placeholder.com/150" class="card-img-top round-img">
+                    <div class="card-body">
+                        <h5 class="card-title">Amanda Vithória</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="text-center">
+                    <img src="imagens/lucas.jpeg" class="card-img-top round-img">
+                    <div class="card-body">
+                        <h5 class="card-title">Lucas Gomes</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="text-center">
+                    <img src="https://via.placeholder.com/150" class="card-img-top round-img">
+                    <div class="card-body">
+                        <h5 class="card-title">Luiz Ricardo</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="text-center">
+                    <img src="https://via.placeholder.com/150" class="card-img-top round-img">
+                    <div class="card-body">
+                        <h5 class="card-title">Valéria de Freitas</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="faixa"></div>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center" id="texto">
+                <h1>Projeto</h1>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <img src="imagens/mexerica.jpg" class="img-fluid" id="mexericas">
+            </div>
+            <div class="col-md-6" id="texto">
+                <h2>O nosso principal projeto é voltado para a produção de citros e busca tornar a vida do produtor rural mais fácil!</h2>
+                <h2>Criamos uma aplicação capaz de análisar uma folha de tangerina e retornar em tempo real um diagnóstico que identifica a falta de manganês ou cobre.</h2>
+            </div>
+        </div>
+    </div>
+    <div id="faixa"></div>
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-8 text-center" id="texto">
+                <h1>Sobre nós</h1>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-5">
+            <div class="col-sm-6 col-md-3" id="teste">
+                <div class="text-center" id="cartas">
+                    <img src="imagens/robozin.svg" class="card-img-top" id="vetores">
+                    <div class="card-body" id="textocarta">
+                        <h5 mt-3>Utilizamos inteligência artificial em nossos projetos</h5>
+                        <h5 mt-3>A inteligência artificial é responsavel pela identificação de deficiências através de uma análise folhar profunda tornando os resultados mais precisos.</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="text-center" id="cartas">
+                    <img src="imagens/mexe.svg" class="card-img-top" id="vetores">
+                    <div class="card-body" id="textocarta">
+                        <h5 mt-3>Nossos estudos são responsáveis por promover maior qualidade dos frutos, visto que atráves das análises os produtores podem aplicar o tratamento adequado ao caso</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="text-center" id="cartas">
+                    <img src="imagens/folha.svg" class="card-img-top" id="vetores">
+                    <div class="card-body" id="textocarta">
+                        <h5 mt-3>Utilizamos a análise foliar pois a folha tem relação direta com os nutrientes que são absorvidos pelo solo e reflete através das cores da folha.</h5>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container mt-5">
 
-
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
