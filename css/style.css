@@ -145,3 +145,11 @@
         #projeto{
             margin-top: 100px;
         }
+        #gps{
+            height: 40px;
+        }
+        #loc{
+            margin-right: 1090px;
+            font-family:'Montserrat',sans-serif;
+            margin-top: 30px;
+        }
