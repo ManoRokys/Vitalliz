@@ -28,7 +28,7 @@
         }
         #folha{
             height: 350px;
-            width: 200px;
+            width: 300px;
         }
         #quadrado{
             text-align: center;
@@ -36,18 +36,20 @@
             border-radius: 80px;
             box-shadow: 0px 14px 10px #FFD9C0;
             padding: 20px;
-            height: 350px;
-            width: 400px;
+            height: 400px;
+            width: 450px;
             display: inline-block;
         }
         #apresentar{
             padding: 75px 0px 0px 0px;
             display: flex;
             justify-content:space-around;
+            margin-bottom: 100px;
+            margin-top: 50px;
             
         }
         #apresentar .col-md-auto {
-            margin-top: 10px;
+            margin-top: 30px;
             margin-right: 300px;
         }   
         #apresentar h1{
@@ -55,18 +57,28 @@
             font-weight: bold;
             color: #113F01;
             margin-top: 10px;
-            margin-bottom: 35px;
+            margin-bottom: 50px;
         }
         #apresentar h2{
             font-family:'Montserrat',sans-serif;
         }
         #faixa{
-            margin-top: 120px;
+            margin-top: 200px;
             background-color: #ffffff;
             height: 50px;
         }
         #faixa1{
             margin-top: 140px;
+            background-color: #ffffff;
+            height: 50px;
+        }
+        #faixa2{
+            margin-top: 250px;
+            background-color: #ffffff;
+            height: 50px;
+        }
+        #faixa3{
+            margin-top: 200px;
             background-color: #ffffff;
             height: 50px;
         }
@@ -97,7 +109,7 @@
             box-shadow: 0px 14px 10px #FFD9C0;
         }
         #texto{
-            margin-top: 30px;
+            margin-top: 50px;
             text-align: center;
             font-family:'Montserrat',sans-serif;
         }
@@ -129,4 +141,7 @@
         #textocarta{
             margin-left: 20px;
             margin-right: 20px;
+        }
+        #projeto{
+            margin-top: 100px;
         }
